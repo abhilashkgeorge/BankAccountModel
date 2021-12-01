@@ -185,7 +185,7 @@ class PersonalLoan: Account, LoanAccountProtocol {
 
 
 class AccountManager {
-    var instance : [String : CLong]
+    var accounts : [String : CLong]
 //    var account =
     init(accounts: [String : CLong]){
         self.accounts = accounts
