@@ -27,8 +27,10 @@ struct User: CreateAccountProtocol {
     var accountNumber: CLong
     
     func createAccount(name: String, initialAmount: Double, accountNumber: CLong) {
-        //self.name = name
-        
         
     }
+}
+
+struct Atm {
+    
 }
